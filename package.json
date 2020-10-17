@@ -1,6 +1,6 @@
 {
   "name": "pickv",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pick object properties recursively based on type names",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
