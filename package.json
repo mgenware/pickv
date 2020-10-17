@@ -1,0 +1,41 @@
+{
+  "name": "pickv",
+  "version": "0.0.0",
+  "description": "Pick object properties recursively based on type names",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "author": "Mgenware (https://github.com/mgenware)",
+  "homepage": "https://github.com/mgenware/pickv",
+  "bugs": "https://github.com/mgenware/pickv/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgenware/pickv.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "r": "daizong",
+    "test": "daizong build"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "/dist/**/*.js",
+    "/dist/**/*.ts",
+    "/dist/**/*.css",
+    "/dist/**/*.map"
+  ],
+  "devDependencies": {
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.11.10",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "daizong": "^0.11.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-typescript-lite": "^10.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.0",
+    "source-map-support": "^0.5.19",
+    "typescript": "^4.0.3"
+  }
+}
